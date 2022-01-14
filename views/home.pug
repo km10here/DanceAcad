@@ -1,0 +1,29 @@
+extends base.pug
+
+block scripts   
+    script(src="/static/index.js") 
+
+block style     
+    style 
+        include ../static/style.css
+
+block content 
+     section#introSection
+        div#welcome Welcome to K's Dance Academy
+        div#subheading EAT SLEEP DANCE REPEAT
+     section#missionSection
+        h2 Our Mission    
+        div.card
+          p This is a card 
+        div.card2
+          p This is a card 
+
+        div.card3
+          p This is a card 
+          
+     section#sponsorsSection
+        h2  Our Sponsors   
+
+     footer#footer 
+        | Copyright © 2022 KDA.com 
+        | all rights reserved 

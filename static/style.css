@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo{
+    display: flex;
+    /* flex-direction: row; */
+    margin-right: 50px;
+    align-items: center;
+    /* padding: 0 34px; */
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#logo img{
+    /* display: flex;  */
+    /* flex-direction: row;  */
+    height: 20px;
+    filter: invert();
+    /* background-position: left;
+    margin: 0;
+    padding: 0; */
+
+}
+
+#navbar{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: 3px 4px;
+}
+
+#navbar ul{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    padding: 14px;
+    margin: 20px;
+}
+
+#navbar li a:hover{
+    background-color: red;
+    /* width: 100%; */
+    color: rgb(0, 0, 0);
+    /* border-bottom: 3px solid black; */
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#introSection{
+    background-image: url(../static/images/Dance.jpg);
+    font-size: 30px;
+    /* background-color: aqua; */
+    height: 550px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+#welcome{ 
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+#missionSection{
+    /* height: 550px; */
+    /* background-image: url(../static/images/Dance2.jpg); */
+    font-family: 'Bebas Neue', cursive;
+    height: 620px;
+    margin: auto;
+    padding-left: 55px;
+  
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 20px;
+}
+
+#sponsorsSection{
+    font-family: 'Bebas Neue', cursive;
+    background-color: red;
+    height: 620px;
+    border: 70px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#sponsorsSection h2{
+    padding: 20px;
+}
+
+.card{
+    /* background-image: url(../static/images/Dance2.jpg); */
+    background-image: url(../static/images/Dance3.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    border: 1px solid black;
+    display: inline-block;
+    /* flex-direction: row; */
+    width: 28%;
+    margin: 20px;
+    padding: 20px;
+    height: 450px;
+    color: white;
+}
+
+.card2{
+    /* background-image: url(../static/images/Dance3.jpg); */
+    background-image: url(../static/images/Dance2.jpg);
+
+    background-size: cover;
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    display: inline-block;
+    /* flex-direction: row; */
+    width: 28%;
+    margin: 20px;
+    padding: 20px;
+    height: 450px;
+    color: white;
+}
+
+.card3{
+    background-image: url(../static/images/Dance4.jpg);
+    background-size: cover;
+    border: 1px solid black;
+    display: inline-block;
+    /* flex-direction: row; */
+    width: 28%;
+    margin: 20px;
+    padding: 20px;
+    height: 450px;
+    color: white;
+}
+
+#footer{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
