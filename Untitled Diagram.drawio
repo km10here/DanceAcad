@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T08:51:54.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="OLVf1CEIXIxmZ5LJABVh" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-09T08:56:28.279Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="C_dZEYUnIu-R8pi9N79N" version="16.5.4" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1564" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="6_vTQew-6M6LHdRo6NpI-1" value="KDA Website" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="680" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6_vTQew-6M6LHdRo6NpI-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="6_vTQew-6M6LHdRo6NpI-2" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="590" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="6_vTQew-6M6LHdRo6NpI-1">
@@ -34,7 +34,7 @@
         <mxCell id="6_vTQew-6M6LHdRo6NpI-5" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="810" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6_vTQew-6M6LHdRo6NpI-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="6_vTQew-6M6LHdRo6NpI-6" value="Existing User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="745" y="810" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -52,7 +52,7 @@
             <mxPoint x="910" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6_vTQew-6M6LHdRo6NpI-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="6_vTQew-6M6LHdRo6NpI-9" value="New User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="670" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -69,14 +69,14 @@
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="400" as="sourcePoint" />
+            <mxPoint x="800" y="400" as="sourcePoint" />
             <mxPoint x="1190" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="760" y="660" as="sourcePoint" />
-            <mxPoint x="760" y="400" as="targetPoint" />
+            <mxPoint x="800" y="680" as="sourcePoint" />
+            <mxPoint x="800" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6_vTQew-6M6LHdRo6NpI-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
