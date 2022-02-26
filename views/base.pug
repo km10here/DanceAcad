@@ -1,0 +1,23 @@
+doctype html 
+html
+  head
+    title KDA 
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/images/logo.jpg", alt="logo") 
+                | KDA 
+            li #[a(href = "/") Home]
+            li #[a(href = "/about") About]
+            li #[a(href = "/services") Services]
+            li #[a(href = "/login") Login]
+            li #[a(href = "/contact") Contact Us]
+            li #[a(href = "/pay") Plans]
+    block content
+    footer#footer 
+        | Copyright © 2022 KDA.com 
+        br
+        | all rights reserved 

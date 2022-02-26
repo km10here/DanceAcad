@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts   
+    script(src="/static/index.js") 
+
+block style     
+    style 
+        include ../static/stylePay.css
+        //- include ../static/style.css
+
+block content 
+    div.container 
+        h1 Membership Plans
+            section#missionSection   
+        div.card
+          h2 Monthly Plan 
+          div.plans
+          div.layer
+            button(class="btn")
+                | View plan
+          form(action="payment", method="POST")
+            script.stripe-button(src="//checkout.stripe.com/v2/checkout.js", data-key="<%= key %>", data-amount="7000", data-currency="usd", data-name="Gautam Sharma", data-description="Buy React.js Complete Course", data-locale="auto").
+        div.card2
+          h2 quarterly Plan 
+          div.plans
+          div.layer
+            button(class="btn")
+                li #[a(href = "/") View Plan]
+          form(action="payment", method="POST")
+            script.stripe-button(src="//checkout.stripe.com/v2/checkout.js", data-key="<%= key %>", data-amount="7000", data-currency="usd", data-name="Gautam Sharma", data-description="Buy React.js Complete Course", data-locale="auto").
+
+        div.card3
+          h2 Yearly Plan 
+          div.plans
+          div.layer
+            button(class="btn")
+                | View plan
+          form(action="payment", method="POST")
+            script.stripe-button(src="//checkout.stripe.com/v2/checkout.js", data-key="<%= key %>", data-amount="7000", data-currency="usd", data-name="Gautam Sharma", data-description="Buy React.js Complete Course", data-locale="auto").
+        
+//- h3 Welcome to Payment Gateway
+//- form(action="payment", method="POST")
+//- script.stripe-button(src="//checkout.stripe.com/v2/checkout.js", data-key="<%= key %>", data-amount="7000", data-currency="usd", data-name="Gautam Sharma", data-description="Buy React.js Complete Course", data-locale="auto").
+    
+    
